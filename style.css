@@ -1,0 +1,112 @@
+
+.news {
+  margin-left: 10px;
+}
+
+.img-content {
+  border-radius: 25px;
+  float: left;
+}
+
+.i {
+  background-image: url('img/max.jpg');
+  background-size: 100%;
+  border-radius: 25px;
+}
+
+.typewriter h1 {
+  font-family: Book Antiqua,garamond,serif;
+  overflow: hidden;
+  border-right: .10em solid white; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .20em; /* Adjust as needed */
+  animation: 
+    typing 2.5s steps(30, end),
+    blink-caret .3s step-end 8;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 ;}
+  to { width: 450px ;}
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color:rgba(0, 0, 0, 0.445) }
+}
+
+.titlu:hover {
+  animation-name: schimba;
+  animation-duration: 2s;
+  animation-iteration-count: 1;
+}
+
+@keyframes schimba{
+  50%{background-color:rgba(73, 73, 73, 0.4);}
+  80%{background-color:rgba(73, 73, 73, 0.192); }
+}
+
+.titlu {
+  font-size: 6vw;
+  font-family:Book Antiqua,garamond,serif;
+  background-color:  rgba(73, 73, 73, 0.192);
+  border-radius: 25px;
+}
+
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+  }
+  
+  .topnav {
+    overflow: hidden;
+    position: fixed;
+    background-color: rgba(73, 73, 73, 0.42);
+    width: 100%;
+    top:0;
+    height: 40px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+  }
+
+  .topnav:hover {
+    animation-name: grad;
+    animation-duration: 1s;
+  }
+
+  @keyframes grad {
+    50%{background-color: rgba(73, 73, 73, 0.62);}
+    100%{background-color: rgba(73, 73, 73, 0.42);}
+  }
+
+  .topnav a {
+    color: lightgray;
+    text-align: center;
+    padding: 24px 16px;
+    text-decoration: none;
+    font-size: 30px;
+    border-bottom: blue;
+  }
+  
+  .topnav a:hover {
+
+    color: black;
+  }
+  
+  .topnav a.active {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  .topnav .icon {
+    display: none;
+  }
+  
+  .content {
+   margin-top: 25px;
+  }
+  
