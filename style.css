@@ -14,7 +14,8 @@
   border-radius: 25px;
 }
 
-.typewriter h1 {
+.typewriter div {
+  font-size: 2vw;
   font-family: Book Antiqua,garamond,serif;
   overflow: hidden;
   border-right: .10em solid white; /* The typwriter cursor */
@@ -22,8 +23,8 @@
   margin: 0 auto; /* Gives that scrolling effect as the typing happens */
   letter-spacing: .20em; /* Adjust as needed */
   animation: 
-    typing 2.5s steps(30, end),
-    blink-caret .3s step-end 8;
+    typing 3.5s steps(40, end),
+    blink-caret .3s step-end 10;
 }
 
 /* The typing effect */
