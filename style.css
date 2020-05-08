@@ -1,10 +1,20 @@
 
+.icon {
+  
+  height: 50px;
+  width: 50px;
+}
+
 footer{
-  background-color: lime;
+  font-size: 2vw;
+  background-color: rgba(211, 211, 211, 0.808);
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
   margin-left: 2%;
   margin-right: 2%;
+  text-align: center;
+  font-family: Book Antiqua,garamond,serif;
+
 }
 
 .news {
@@ -41,8 +51,8 @@ footer{
 
 /* The typing effect */
 @keyframes typing {
-  from { width: 0 ;}
-  to { width: 245.67px ;}
+  0% { width: 0 ;}
+  100% { width: 245.67px ;}
 }
 
 /* The typewriter cursor effect */
@@ -68,6 +78,8 @@ footer{
   background-color:  rgba(73, 73, 73, 0.192);
   border-radius: 25px;
   box-shadow: 0 20px 24px -24px rgba(92, 92, 92, 0.726);;
+  margin-left: 2%;
+  margin-right: 2%;
 }
 
 body {
