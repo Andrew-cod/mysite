@@ -15,7 +15,7 @@
 }
 
 .typewriter div {
-  font-size: 2vw;
+  font-size: 30px;
   font-family: Book Antiqua,garamond,serif;
   overflow: hidden;
   border-right: .10em solid white; /* The typwriter cursor */
