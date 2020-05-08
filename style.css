@@ -1,11 +1,23 @@
 
+footer{
+  background-color: lime;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
 .news {
-  margin-left: 10px;
+  margin-left: 2%;
+  margin-right: 2%;
+  background-color: rgba(211, 211, 211, 0.589);
+  border-radius: 25px;
 }
 
 .img-content {
   border-radius: 25px;
   float: left;
+  box-shadow: 0 32px 24px -24px rgba(92, 92, 92, 0.726);;
 }
 
 .i {
@@ -55,6 +67,7 @@
   font-family:Book Antiqua,garamond,serif;
   background-color:  rgba(73, 73, 73, 0.192);
   border-radius: 25px;
+  box-shadow: 0 20px 24px -24px rgba(92, 92, 92, 0.726);;
 }
 
 body {
