@@ -75,7 +75,7 @@ background-image: url("max2.jpg");
 }
 
 .typewriter div {
-  font-size: 20px;
+  font-size: 25px;
   font-family: Book Antiqua,garamond,serif;
   overflow: hidden;
   border-right: .10em solid white; /* The typwriter cursor */
