@@ -22,6 +22,11 @@
 
 .icon {
 width: 4%;
+transition:  box-shadow 1s ;
+}
+
+.icon:hover {
+  box-shadow: 2px 33px 50px 0px rgba(0,0,0,0.75);
 }
 
 footer{
@@ -33,6 +38,7 @@ footer{
   margin-right: 2%;
   text-align: center;
   font-family: Book Antiqua,garamond,serif;
+  box-shadow: 0px 0px 18px 0px rgba(0,0,0,0.45);
 
 }
 
@@ -52,7 +58,7 @@ footer{
 }
 
 .img-content:hover {
-  filter: saturate(0.6);
+  filter: saturate(0.4);
   box-shadow: 0 32px 24px -15px rgba(92, 92, 92, 0.726);
 }
 
@@ -102,12 +108,12 @@ background-image: url("max2.jpg");
   box-shadow: 0 20px 24px -24px rgba(92, 92, 92, 0.726);;
   margin-left: 2%;
   margin-right: 2%;
-  transition: background-color 1.2s , color 1.2s;
+  transition: background-color 1.2s , color 1.5s;
 }
 
 .titlu:hover {
   background-color: rgba(105, 105, 105, 0.753);
-  color: #f1f1f1;
+  color: #e6e6e6;
 }
 
 body {
