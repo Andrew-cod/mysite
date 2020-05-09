@@ -39,20 +39,33 @@ footer{
 .news {
   margin-left: 2%;
   margin-right: 2%;
-  background-color: rgba(211, 211, 211, 0.589);
+  background-color: rgba(211, 211, 211, 0.808);
   border-radius: 25px;
+  box-shadow: 0 32px 24px -24px rgba(92, 92, 92, 0.726);
 }
 
 .img-content {
   border-radius: 25px;
   float: left;
   box-shadow: 0 32px 24px -24px rgba(92, 92, 92, 0.726);
+  transition: filter 1s ,box-shadow 1s;
+}
+
+.img-content:hover {
+  filter: saturate(0.6);
+  box-shadow: 0 32px 24px -15px rgba(92, 92, 92, 0.726);
 }
 
 .i {
   background-image: url('max.jpg');
   background-size: 100%;
   border-radius: 25px;
+  transition: background-image 2s;
+  
+}
+
+.i:hover {
+background-image: url("max2.jpg");
 }
 
 .typewriter div {
@@ -80,16 +93,6 @@ footer{
   50% { border-color:rgba(0, 0, 0, 0.445) }
 }
 
-.titlu:hover {
-  animation-name: schimba;
-  animation-duration: 2s;
-  animation-iteration-count: 1;
-}
-
-@keyframes schimba{
-  50%{background-color:rgba(73, 73, 73, 0.4);}
-  80%{background-color:rgba(73, 73, 73, 0.192); }
-}
 
 .titlu {
   font-size: 6vw;
@@ -99,6 +102,12 @@ footer{
   box-shadow: 0 20px 24px -24px rgba(92, 92, 92, 0.726);;
   margin-left: 2%;
   margin-right: 2%;
+  transition: background-color 1.2s , color 1.2s;
+}
+
+.titlu:hover {
+  background-color: rgba(105, 105, 105, 0.753);
+  color: #f1f1f1;
 }
 
 body {
@@ -117,17 +126,14 @@ body {
     height: 45px;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
+    transition: background-color 1.2s , color 0.5s;
   }
 
   .topnav:hover {
-    animation-name: grad;
-    animation-duration: 1s;
+    background-color: rgba(73, 73, 73, 0.62);
+    color: dimgray;
   }
 
-  @keyframes grad {
-    50%{background-color: rgba(73, 73, 73, 0.62);}
-    100%{background-color: rgba(73, 73, 73, 0.42);}
-  }
 
   .topnav a {
     text-align: center;
@@ -137,17 +143,13 @@ body {
     text-decoration: none;
     font-size: 30px;
     border-bottom: blue;
+    transition: color 0.5s;
   }
   
   .topnav a:hover {
-
     color: black;
   }
-  
-  .topnav a.active {
-    background-color: #4CAF50;
-    color: white;
-  }
+
   
   .topnav .icon {
     display: none;
