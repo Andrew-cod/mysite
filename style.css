@@ -1,12 +1,31 @@
 
+/* width */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888; 
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(54, 54, 54); 
+}
+
 .icon {
-  
-  height: 50px;
-  width: 50px;
+width: 4%;
 }
 
 footer{
-  font-size: 2vw;
+  font-size: 1vw;
   background-color: rgba(211, 211, 211, 0.808);
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
@@ -27,7 +46,7 @@ footer{
 .img-content {
   border-radius: 25px;
   float: left;
-  box-shadow: 0 32px 24px -24px rgba(92, 92, 92, 0.726);;
+  box-shadow: 0 32px 24px -24px rgba(92, 92, 92, 0.726);
 }
 
 .i {
