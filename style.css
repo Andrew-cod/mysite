@@ -62,16 +62,13 @@ footer{
   box-shadow: 0 32px 24px -15px rgba(92, 92, 92, 0.726);
 }
 
+
+
 .i {
   background-image: url('max.jpg');
   background-size: 100%;
   border-radius: 25px;
-  transition: background-image 2s;
   
-}
-
-.i:hover {
-background-image: url("max2.jpg");
 }
 
 .typewriter div {
@@ -90,7 +87,7 @@ background-image: url("max2.jpg");
 /* The typing effect */
 @keyframes typing {
   0% { width: 0 ;}
-  100% { width: 245.67px ;}
+  100% { width: 309.67px ;}
 }
 
 /* The typewriter cursor effect */
@@ -137,7 +134,7 @@ body {
 
   .topnav:hover {
     background-color: rgba(73, 73, 73, 0.62);
-    color: dimgray;
+    color: rgb(43, 43, 43);
   }
 
 
