@@ -1,7 +1,7 @@
 
 .cv-element {
   border-radius: 15px;
-  width: 40% ;
+  width: 60% ;
   border: 2px solid grey;
 }
 
@@ -26,7 +26,7 @@
 .container {
   margin-left: 3%;
   margin-right: 3%;
-  width: 46%;
+  width: 80%;
   height: 10%;
   background-color: rgb(197, 197, 197);
   border-radius: 25px
