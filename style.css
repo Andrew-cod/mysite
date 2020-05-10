@@ -1,3 +1,28 @@
+
+.cv-element {
+  border-radius: 15px;
+  width: 40% ;
+  border: 2px solid grey;
+}
+
+.title-cv {
+  font-size: 3vw;
+  font-weight: 500;
+
+}
+
+.line-cv {
+  border-radius: 20px;
+  
+}
+
+.skill-title {
+ margin-left: 3%;
+ font-size: 1.5vw;
+ font-weight: 500;
+}
+
+
 .container {
   margin-left: 3%;
   margin-right: 3%;
@@ -8,11 +33,11 @@
 }
 
 .html {width: 80%; background-color: #4CAF50;border-radius: 25px}
-.css {width: 70%; background-color: #2196F3;border-radius: 25px}
-.js {width: 35%; background-color: #f44336;border-radius: 25px}
-.c {width: 60%; background-color: #808080;border-radius: 25px}
-.edit {width: 50%; background-color: #808080;border-radius: 25px}
-.photo {width: 55%; background-color: #808080;border-radius: 25px}
+.css {width: 70%; background-color: rgb(19, 220, 255);border-radius: 25px}
+.js {width: 40%; background-color: #f49236;border-radius: 25px}
+.c {width: 75%; background-color: #76ff76;border-radius: 25px}
+.edit {width: 65%; background-color: #34bbdd;border-radius: 25px}
+.photo {width: 55%; background-color: #8a58ff;border-radius: 25px}
 
 /* width */
 ::-webkit-scrollbar {
