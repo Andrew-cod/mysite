@@ -1,9 +1,31 @@
 
 
+@media screen and (min-width:700px) {
+
+.vid {
+height: 500px;
+}}
+
+.vid {
+  width:60% ;
+  transition: transform 0.5s , box-shadow 0.5s;
+}
+
+.vid:hover {
+  transform: scale(1.1);
+  box-shadow: 0px 0px 26px 10px rgba(0,0,0,0.45);
+}
+
 .cv-element {
   border-radius: 15px;
   width: 60% ;
   border: 2px solid grey;
+  transition: transform 0.5s , box-shadow 0.5s;
+}
+
+.cv-element:hover {
+  transform: scale(1.1);
+  box-shadow: 0px 0px 26px 10px rgba(0,0,0,0.45);
 }
 
 .title-cv {
@@ -95,12 +117,12 @@ footer{
   border-radius: 25px;
   float: left;
   box-shadow: 0 32px 24px -24px rgba(92, 92, 92, 0.726);
-  transition: filter 1s ,box-shadow 1s;
+  transition: box-shadow 1s , transform 0.5s;
 }
 
 .img-content:hover {
-  filter: saturate(0.4);
   box-shadow: 0 32px 24px -15px rgba(92, 92, 92, 0.726);
+  transform: scale(1.2);
 }
 
 
