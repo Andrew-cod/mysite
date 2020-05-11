@@ -9,6 +9,7 @@ height: 500px;
 .vid {
   width:60% ;
   transition: transform 0.5s , box-shadow 0.5s;
+  border-radius: 25px;
 }
 
 .vid:hover {
@@ -17,7 +18,7 @@ height: 500px;
 }
 
 .cv-element {
-  border-radius: 15px;
+  border-radius: 25px;
   width: 60% ;
   border: 2px solid grey;
   transition: transform 0.5s , box-shadow 0.5s;
