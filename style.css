@@ -184,6 +184,7 @@ body {
   }
   
   .topnav {
+    visibility: visible;
     overflow: hidden;
     position: fixed;
     background-color: rgba(97, 96, 96, 0.555);
