@@ -1,4 +1,9 @@
 
+.col1 .col2 {
+  border: 1px solid black;
+  height: 500px;
+  width:500px
+}
 
 @media screen and (min-width:700px) {
 
@@ -94,7 +99,8 @@ transition:  box-shadow 1s ;
 }
 
 footer{
-  font-size: 1vw;
+  height: 10%;
+  font-size: 1.5vw;
   background-color: rgba(211, 211, 211, 0.808);
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
