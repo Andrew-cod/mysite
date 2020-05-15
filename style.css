@@ -144,15 +144,12 @@ footer{
 .img-content {
   border-radius: 25px;
   float: left;
-  filter: saturate(60%);
   box-shadow: 0 32px 24px -24px rgba(92, 92, 92, 0.726);
-  transition: box-shadow 1s , transform 0.5s , saturate 0.8s;
+  transition: box-shadow 1s ;
 }
 
 .img-content:hover {
-  box-shadow: 0 32px 24px -15px rgba(92, 92, 92, 0.726);
-  transform: scale(1.08);
-  filter: saturate(100%)
+  box-shadow: 0 32px 32px -10px rgba(92, 92, 92, 0.925);
 }
 
 
@@ -172,6 +169,7 @@ footer{
   white-space: nowrap; /* Keeps the content on a single line */
   margin: 0 auto; /* Gives that scrolling effect as the typing happens */
   letter-spacing: .10em; /* Adjust as needed */
+  animation-delay: 1s;
   animation: 
     typing 2s steps(40, end),
     blink-caret .2s step-end 10;
