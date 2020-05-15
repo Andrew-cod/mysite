@@ -1,4 +1,25 @@
 
+
+  .topnav a {
+    text-align: center;
+    color: lightgray;
+    text-align: center;
+    padding: 32px 16px;
+    text-decoration: none;
+    font-size: 30px;
+    border-bottom: blue;
+    transition: color 0.5s;
+  }
+  
+  .topnav a:hover {
+    color: black;
+  }
+
+  
+  .topnav .icon {
+    display: none;
+  }
+
 .col1 .col2 {
   border: 1px solid black;
   height: 500px;
@@ -211,25 +232,7 @@ body {
   }
 
 
-  .topnav a {
-    text-align: center;
-    color: lightgray;
-    text-align: center;
-    padding: 32px 16px;
-    text-decoration: none;
-    font-size: 30px;
-    border-bottom: blue;
-    transition: color 0.5s;
-  }
-  
-  .topnav a:hover {
-    color: black;
-  }
 
-  
-  .topnav .icon {
-    display: none;
-  }
   
   .content {
    margin-top: 31px;
