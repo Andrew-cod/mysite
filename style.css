@@ -142,7 +142,7 @@ footer{
 }
 
 .img-content {
-  border-radius: 25px;
+  border-radius: 8%;
   float: left;
   box-shadow: 0 32px 24px -24px rgba(92, 92, 92, 0.726);
   transition: box-shadow 1s ;
