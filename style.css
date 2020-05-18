@@ -1,18 +1,7 @@
 
-
-.grid-container {
-  display: grid;
-  grid-template-columns: auto auto auto;
-  background-color: #2196F3;
-  padding: 10px;
-}
-.grid-item {
-  background-color: rgba(255, 255, 255, 0.8);
-  border: 1px solid rgba(0, 0, 0, 0.8);
-  padding: 20px;
-  font-size: 30px;
-  text-align: center;
-}
+  .img-box {
+   column-count: 3;
+  }
 
   .topnav a {
     text-align: center;
@@ -157,7 +146,6 @@ footer{
 
 .img-content {
   border-radius: 8%;
-  float: left;
   box-shadow: 0 32px 24px -24px rgba(92, 92, 92, 0.726);
   transition: box-shadow 1s ;
 }
