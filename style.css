@@ -1,4 +1,10 @@
 
+ a:link {
+   font-size: 2vw;
+   color: grey;
+  text-decoration: none;
+}
+
   .img-box {
    column-count: 3;
   }
